@@ -1,0 +1,69 @@
+.btn .fa {
+    margin-left: 3px;
+  }
+  
+  .top-nav-collapse {
+    background-color:  #2E2E2E !important;
+  }
+  
+  .navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+  }
+  
+  @media (max-width: 991px) {
+    .navbar:not(.top-nav-collapse) {
+      background: -moz-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%)!important;
+      background: -webkit-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%)!important;
+      background: -webkit-gradient(linear, 45deg, from(rgba(42, 27, 161, 0.7)), to(rgba(29, 210, 177, 0.7)))!important;
+      background: -o-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%)!important;
+      background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%)!important;
+    }
+    .centrado{
+      text-align: center;
+      
+    
+    }
+  
+  }
+  
+  .btn-white {
+    color: black !important;
+  }
+  
+  h6 {
+    line-height: 1.7;
+  }
+  
+  .rgba-gradient {
+    background: -moz-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+    background: -webkit-gradient(linear, 45deg, from(rgba(42, 27, 161, 0.7)), to(rgba(29, 210, 177, 0.7)));
+    background: -o-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+    background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+  }
+  
+  /* imagen */
+
+
+  body, html {
+    height: 100%;
+  }
+  .bg {
+    /* The image used */
+    background-image: url("../imagenes/prepa.jpg");
+  
+    /* Half height */
+    height: 90%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-size: cover;padding: 100px 0;
+    box-shadow: 5px 10px 25px #555;
+    position: relative;
+    z-index: 22;
+
+ 
+  }
+
